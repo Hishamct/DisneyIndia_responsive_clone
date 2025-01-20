@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disney-clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <!-- Navigation bar -->
+    
+  <nav class="navbar navbar-expand-lg menuhead">
+    <div class="container-fluid menuup col-xxl-12">
+      <button
+        class="navbar-toggler menubutton"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        
+      >
+        <span class="navbar-toggler-icon">
+          <div style="width: 25px;height: 2px;background-color: black; margin: 6px 0;"></div>
+          <div style="width: 25px;height: 2px;background-color: black; margin: 6px 0;"></div>
+          <div style="width: 25px;height: 2px;background-color: black; margin: 6px 0;"></div>
+        </span>
+
+      </button>
+      
+      <a class="navbar-brand menulogo" href="#">
+        <img src="assets/disneyLogo.png" alt="disneylogo">
+      </a>
+
+      <!-- toggler effect -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+
+          <li class="nav- menumarginleft">
+            <a class="nav-link menushop" href="#">PARKS</a>
+            
+          </li>
+          <li class="nav- menumarginleft">
+            <a class="nav-link menushop" href="#">CRUISE</a>
+          </li>
+          <li class="nav- menumarginleft">
+            <a class="nav-link menushop" href="#">WHAT'S NEW</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+  </nav>
+
+  <!-- carousal  -->
+
+  <div class="container-fluid p-0 d-flex justify-content-center">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true" >
+       <div class="carousel-indicators">
+         <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+         
+        > </button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="3"
+          
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active imagehover">
+          <img
+            src="assets/titanic.jpg"
+            class="d-block w-100 imageadjust"
+            alt="titanicimg"
+          />
+        </div>
+        <div class="carousel-item imagehover">
+          <img
+            src="assets/titanic.jpg"
+            class="d-block w-100 imageadjust1"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item imagehover">
+          <img
+            src="assets/titanic.jpg"
+            class="d-block w-100 imageadjust2"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item imagehover">
+          <img
+            src="assets/titanic.jpg"
+            class="d-block w-100 imageadjust3"
+            alt="..."
+          />
+        </div>
+      </div>
+
+      <!-- left & right button -->
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- session2 -->
+  <div class="container-fluid p-0 m-0 d-flex justify-content-center mt-4">
+    <div
+      class="row  col-sm-12 col-xxl-12 row-cols-1 row-cols-sm-2 row-cols-md-4 g-3"
+    >
+      <div class="col ps-0">
+        <div class="card h-100 ">
+          <a class="imagehover" href="">
+            <img
+              src="assets/ginger.jpeg"
+              class="card-img-top "
+              alt="ginger"
+          /></a>
+          <div class="card-body cardgradcolor w-100 ">
+            <a href="#" class="card_caption_design">Disney X Ginger</a>
+            <br />
+            <a href="#" class="card_caption_design2">SHOP NOW</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100">
+          <a class="imagehover" href=""
+            ><img
+              src="assets/mila.jpeg"
+              class="card-img-top"
+              alt="milababy"
+          /></a>
+          <div class="card-body cardgradcolor w-100 ">
+            <a href="#" class="card_caption_design">Disney X Mila Baby</a>
+            <br />
+            <a href="#" class="card_caption_design2">SHOP NOW</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100">
+          <a class="imagehover" href=""
+            ><img
+              src="assets/friendsBIG.jpeg"
+              class="card-img-top"
+              alt="friends"
+          /></a>
+          <div class="card-body cardgradcolor w-100 ">
+            <a href="#" class="card_caption_design"
+              >Disney X Hair Drama Co.</a
+            >
+            <br />
+            <a href="#" class="card_caption_design2">SHOP NOW</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col pe-0">
+        <div class="card h-100">
+          <a class="imagehover" href="">
+            <img
+              src="assets/avengers.jpeg"
+              class="card-img-top"
+              alt="avengers"
+          /></a>
+          <div class="card-body cardgradcolor w-100 ">
+            <a href="#" class="card_caption_design"
+              >Disney X Toothless Kids</a
+            >
+            <br />
+            <a href="#" class="card_caption_design2">SHOP NOW</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- session3 -->
+  <div class="container-fluid d-flex justify-content-center">
+    <div class="row mt-4 imagefillback d-flex justify-content-center">
+      <div class="row col-sm-11 mx-3 pt-3 justify-content-center">
+        <p class="font-weight-bold fs-2">Featured Ads</p>
+        <div class="row container">
+          <div class="col-12 col-sm-6">
+            <div class="card" style="background-color: #eeeeee; border: none">
+              <div class="imagehover">
+                <img
+                  src="assets/pogo.jpeg"
+                  class="card-img-top pogobig"
+                  alt="pogo"
+                />
+              </div>
+              <div class="card-body d-flex justify-content-flex-start mt-3">
+                <p class="card-text " style="font-size: 1.2rem">
+                  Disney Imagine That | Disney Channel
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6">
+            <div class="card" style="background-color: #eeeeee; border: none">
+              <div class="imagehover">
+                <img
+                  src="assets/spiderman.jpeg"
+                  class="card-img-top spidermanbig"
+                  alt="spiderman"
+                />
+              </div>
+              <div class="card-body mt-3">
+                <p
+                  class="card-title"
+                  style="font-size: 1.4rem; font-weight:400"
+                >
+                  Marvel’s Spider-Man
+                </p>
+                <p class="card-text" style="font-size: 0.9rem; font-weight:400">
+                  When new foes threaten the city, a new web-slinger arises as
+                  Spider-Man. Marvel’s Spider-Man: Miles Morales has arrived
+                  on PlayStation 4 and PlayStation 5. Get the game now:
+                  <span>
+                    <a href="#" style="color: black"
+                      >http://amzn.to/35buWpS</a
+                    >
+                  </span>
+                  <br />
+                  #BeGreater #BeYourself #MilesMorales"
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- session4 -->
+  <div class="container-fluid d-flex justify-content-center">
+    <div class="row imagefillback d-flex justify-content-center">
+      <div class="row col-sm-11 mx-3 pt-3 justify-content-center">
+        <div class="row">
+          <p class="font-weight-bold fs-2">Explore Disney Holidays</p>
+        </div>
+
+        <div class="row container">
+          <div class="col-12 col-sm-4">
+            <div class="card h-100" style="background-color: #eeeeee; border: none">
+              <a href="" style="color: black; text-decoration: none">
+                <img class="card-img-top legendbig" src="assets/legend.jpeg" alt="starwars">
+
+                <div class="card-body ">
+                  <p class="card-title" style="font-size: 1.3rem; font-weight: 400">
+                    Legends of the Force
+                  </p>
+                  <p class="card-text" style="font-size: 0.9rem; font-weight: 700"  >
+                    DISCOVER NOW AT DISNEYLAND® PARIS
+                  </p>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-4">
+            <div class="card h-100" style="background-color: #eeeeee; border: none">
+              <a href="" style="color: black; text-decoration: none">
+                <img class="card-img-top parkbig" src="assets/park.jpeg" alt="park">
+                  
+              <div class="card-body ">
+                  <p  class="card-title" style="font-size: 1.3rem; font-weight: 400">
+                     14 Day Ticket at a 7 Day Price
+                  </p>
+                  <p class="card-text" style="font-size: 0.9rem; font-weight: 700">
+                     BOOK WITH WALT DISNEY WORLD
+                  </p>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-4">
+            <div class="card h-100" style="background-color: #eeeeee; border: none;">
+              <a href="" style="color: black; text-decoration: none">
+                <img class="card-img-top shipbig" src="assets/ship.jpeg"  alt="ship">
+                  
+                <div class="card-body ">
+                  <p class="card-title" style="font-size: 1.3rem; font-weight: 400" >
+                    Find Your Perfect Holiday
+                  </p>
+                  <p class="card-text"style="font-size: 0.9rem; font-weight: 700">
+                    BOOK WITH DISNEY CRUISE LINE
+                  </p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- session5 -->
+  <div class="container-fluid d-flex justify-content-center">
+    <div class="row imagefillback d-flex justify-content-center">
+      <div class="row col-sm-11 mx-3 pt-3 justify-content-center">
+        <p class="font-weight-bold fs-2">More From Disney</p>
+
+        <div class="row container">
+          <div class="col-12 col-sm-6">
+            <div class="card" style="background-color: #eeeeee; border: none">
+              <a href="" style="color: black; text-decoration: none">
+                <img
+                  src="assets/panda.jpg"
+                  class="card-img-top pandabig"
+                  alt="panda"
+                />
+
+                <div class="card-body">
+                  <p class="card-title" style="font-size: 1.5rem">
+                    Disney Junior Birthday Book
+                  </p>
+                  <p class="card-text" style="font-size: 1rem">
+                    Make your kids birthday even more special by creating your
+                    own personalized birthday video for your child.
+                  </p>
+                  <p style="font-size: 0.75rem; font-weight: 700">
+                    DISNEY JUNIOR
+                  </p>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6">
+            <div class="card" style="background-color: #eeeeee; border: none">
+              <a href="" style="color: black; text-decoration: none">
+                <img
+                  src="assets/mickey.jpeg"
+                  class="card-img-top mickeybig"
+                  alt="mickey"
+                />
+
+                <div class="card-body">
+                  <p class="card-title" style="font-size: 1.7rem">
+                    Happy Anniversary Mickey
+                  </p>
+                  <p class="card-text" style="font-size: 0.8rem">
+                    It all started with a mouse. We're celebrating 90 years of
+                    the True Original.
+                  </p>
+                  <p style="font-size: 0.75rem; font-weight: 700">DISNEY</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- footer -->
+<footer>
+  <div class="container my-5 mx-1" style="max-width: 100vw;">
+   <div class="row">
+
+    <div class="col-12 col-md-2 g-3 d-flex justify-content-center">
+        <img src="assets/disneyLogo.png" alt="logo">
+    </div>
+
+    <div class=" col-12 col-md-5 col-xl-3  d-flex justify-content-center ">
+      <ul class="list-unstyled row ">
+          <li class="footmenu col-12 col-sm-3 ">
+            <a class="text-decoration-none text-dark" href="#">PARKS</a>
+          </li>
+          <li class="footmenu col-12 col-sm-3 ">
+            <a class="text-decoration-none text-dark" href="#">CRUISE</a>
+          </li>
+          <li class="footmenu col-12 col-sm-3  footmenu1 ">
+            <a class="text-decoration-none text-dark" href="#">WHAT'S NEW</a>
+          </li>
+      </ul>
+    </div>
+
+    <div class="col-12 col-md-2 offset-md-2 offset-xl-5  d-flex justify-content-center">
+      <ul class=" list-unstyled d-flex  justify-content-center" >
+          <li class="mx-2">
+            <a href="#"><img src="assets/twitter.png" alt="twitter"></a>
+          </li>
+          <li class="mx-2">
+            <a href="#"><img src="assets/facebook.png" alt="facebook"></a>
+          </li>
+          <li class="mx-2">
+            <a href="#" ><img src="assets/instagram.png" alt="insta"></a>
+          </li>
+          <li class="mx-2">
+            <a href="#"><img src="assets/youtube.png" alt="youtube"></a>
+          </li>
+      </ul>
+    </div>
+   </div>
+</div>
+
+<div class="container my-5" style="max-width: 100vw;">
+    <div class="row ">
+      <div class=" d-flex justify-content-center">
+        <img src="assets/disneyLogo.png" alt="logo">
+      </div>
+</div>
+   
+<div class="container-fluid">
+  <ul class="list-unstyled custom-list d-flex flex-wrap">
+      <li class="custom-col">About</li>
+      <li class="custom-col"> Careers</li>
+      <li class="custom-col"> Internet Safety</li>
+      <li class="custom-col"> Terms of Use</li>
+      <li class="custom-col"> Privacy Policy</li>
+      <li class="custom-col"> DMCA Notices</li>
+      <li class="custom-col"> Supplemental Terms of Use</li>
+      <li class="custom-col"> Addendum to Privacy Policy - for India</li>
+      <li class="custom-col"> Contest Terms and Conditions</li>
+      <li class="custom-col"> Channel Distribution</li>
+      <li class="custom-col"> Interest-Based Ads</li>
+  </ul>
+</div>
+
+<div class="row text-center">
+  <p class="mt-2" style="font-size: 0.68rem">
+    © Disney © Disney•Pixar © & ™ Lucasfilm LTD © Marvel. All Rights
+    Reserved
+  </p>
+</div>
+
+
+
+
+
+</footer>
+
+
+  
+    <!-- JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,224 @@
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  overflow-x: hidden;
+}
+
+.menulogo img {
+  height: 2.375rem !important;
+  width: 5.938rem !important;
+}
+.menuhead {
+  height: 3.938rem;
+  
+}
+.menuup {
+  z-index: 1;
+  margin: 0;
+  padding: 0;
+  
+}
+.menubutton {
+  border: none !important ;
+  box-shadow: none !important ;
+}
+.menushop {
+  
+  font-size: 0.875rem !important ;
+  color: #000000 !important;
+  font-weight: 700 !important;
+  margin-left: 1.875rem !important;
+  background-color: white;
+  border: 1rem solid black;
+}
+
+
+.imagehover {
+  overflow: hidden;
+}
+.imagehover img {
+  transition: transform 0.5s ease;
+}
+.imagehover :hover {
+  transform: scale(1.03);
+}
+.cardgradcolor {
+  position: absolute;
+  bottom: 0;
+  color: white;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(0, 0, 0, 1) 93%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+.card_caption_design {
+  text-decoration: none;
+  color: white;
+  line-height: 3rem;
+  font-size: large;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.card_caption_design:hover {
+  color: white;
+  text-decoration: underline;
+}
+.card_caption_design2 {
+  text-decoration: none;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 600;
+}
+.card_caption_design2:hover {
+  color: white;
+  text-decoration: underline;
+}
+.imagefillback {
+  background-color: #eeeeee;
+  width: 96.5rem;
+}
+.imagefillback2 {
+  background-color: #eeeeee;
+  width: 100rem !important;
+  height: 46.033rem !important;
+}
+.footmenu a {
+  color: #000000;
+  font-size: 1.02rem;
+  font-weight: 650;
+}
+.footmenu {
+  margin-top: 1.7rem !important;
+}
+.footmenu1 {
+  white-space: nowrap;
+}
+
+.socialedit {
+  list-style: none;
+}
+
+@media only screen and (max-width: 992px) {
+  .menulogo {
+    position: absolute;
+    left: 45%;
+    top: 25%;
+  }
+  .menulogo img {
+    margin-top: -1rem;
+  }
+  .menuhead {
+    padding-left: 0rem !important;
+  }
+  .menushop {
+    border-top: 0.1rem solid black;
+    margin-top: 0.9rem;
+    padding-left: 3rem !important;
+  }
+  .menuparks {
+    border-top: 0.1rem solid rgba(0, 0, 0, 0.119);
+    padding-left: 3rem !important;
+  }
+  .menunew {
+    border-top: 0.1rem solid rgba(0, 0, 0, 0.119);
+    padding-left: 3rem !important;
+  }
+  .menumarginleft {
+    margin-left: -1.9rem;
+  }
+}
+@media (max-width: 767px) {
+  .imageadjust {
+    content: url(assets/titanic_small.png);
+  }
+  .imageadjust1 {
+    content: url(./images/disneyjr-memorablemoments-small.jpeg);
+  }
+  .imageadjust2 {
+    content: url(./images/djindia_small.jpeg);
+  }
+  .imageadjust3 {
+    content: url(./images/disney_movies_small.png);
+  }
+  .menulogo {
+    content: url(./images/disney-logo6628.png);
+  }
+}
+@media only screen and (max-width: 575px) {
+  .pogobig {
+    content: url(assets/pogo.jpeg);
+  }
+  .spidermanbig{
+    content: url(assets/spiderman.jpeg);
+  }
+  .legendbig {
+    content: url(assets/legend.jpeg);
+  }
+  .parkbig {
+    content: url(assets/park.jpeg);
+  }
+  .shipbig {
+    content: url(assets/ship.jpeg);
+  }
+  .pandabig {
+    content: url(assets/panda.jpg);
+  }
+  .mickeybig {
+    content: url(assets/mickey.jpeg);
+  }
+}
+
+
+
+.custom-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+}
+
+.custom-col {
+  flex: 0 0 100%; /* Full width by default */
+  padding: 10px;
+  text-align: center;
+}
+.custom-col:hover{
+  color:blue;
+}
+
+
+@media (min-width: 576px) {
+  .custom-col {
+      flex: 0 0 50%; /* 2 items per row on small screens */
+  }
+}
+
+@media (min-width: 768px) {
+  .custom-col {
+      flex: 0 0 33.33%; /* 3 items per row on medium screens */
+  }
+}
+
+@media (min-width: 992px) {
+  .custom-col {
+      flex: 0 0 16.66%; /* 6 items per row on large screens */
+  }
+}
+
+@media (min-width: 1200px) {
+  .custom-col {
+      flex: 0 0 9.09%; /* 11 items per row on extra-large screens */
+  }
+}
+.custom-col{
+  font-size: 0.6rem;
+  font-weight: 500;
+}
+
+
+
