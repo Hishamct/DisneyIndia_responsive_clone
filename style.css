@@ -6,8 +6,8 @@ body {
 }
 
 .menulogo img {
-  height: 2.375rem !important;
-  width: 5.938rem !important;
+  height: 2.375rem ;
+  width: 5.938rem ;
 }
 .menuhead {
   height: 3.938rem;
@@ -20,17 +20,29 @@ body {
   
 }
 .menubutton {
-  border: none !important ;
-  box-shadow: none !important ;
+  border: none;
+  box-shadow: none;
 }
 .menushop {
   
-  font-size: 0.875rem !important ;
+  font-size: 0.875rem  ;
   color: #000000 !important;
   font-weight: 700 !important;
   margin-left: 1.875rem !important;
   background-color: white;
   border: 1rem solid black;
+}
+.menumarginleft{
+  border: 0rem solid black;
+  background-color: white;
+  position: relative;
+  
+}
+
+.menushop .parks .topics{
+  margin: 10rem;
+  position: absolute;
+  visibility: hidden;
 }
 
 
@@ -137,16 +149,16 @@ body {
     content: url(assets/titanic_small.png);
   }
   .imageadjust1 {
-    content: url(./images/disneyjr-memorablemoments-small.jpeg);
+    content: url(assets/ironmanSmall.jpeg);
   }
   .imageadjust2 {
-    content: url(./images/djindia_small.jpeg);
+    content: url(assets/titanic_small.png);
   }
   .imageadjust3 {
-    content: url(./images/disney_movies_small.png);
+    content: url(assets/ironmanSmall.jpeg);
   }
   .menulogo {
-    content: url(./images/disney-logo6628.png);
+    content: url(assets/disneyLogo.png);
   }
 }
 @media only screen and (max-width: 575px) {
